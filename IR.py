@@ -49,7 +49,7 @@ def lemmatizing(Tokens):
     lemmatizer = WordNetLemmatizer()
     return [lemmatizer.lemmatize(token) for token in Tokens]
 #=======================================================================================================================================================
-path = r'C:\Users\manda\Desktop\IR_PROGRAM\Hard_Times/'
+path = r'C:\Users\manda\Desktop\project to show\SearchEngine\Hard_Times/'
 tokens = tokenize_files(path)
 
 final = lemmatizing(tokens)

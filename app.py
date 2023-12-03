@@ -3,7 +3,7 @@ from IR import *
 from PRF import GetRankedDocument
 eel.init("web")
 
-path = r'C:\Users\manda\Desktop\IR_PROGRAM\Hard_Times/'
+path = r'C:\Users\manda\Desktop\project to show\SearchEngine\Hard_Times/'
 text_files = [file for file in os.listdir(path) if file.endswith('.txt')]
 documents = []
 for text_file in text_files:
