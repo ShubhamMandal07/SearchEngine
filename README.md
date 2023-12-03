@@ -47,6 +47,6 @@ Code, Inverted Index, Bigram Index and Permuterm Index of
 the whole words which are present in every documents.
 
 ## ss and gui
- Query:
+ Query:(img/Screenshot 2023-12-03 130225.png)
  Displays the documents which contains the word alongwith its Precision, Recall and F-measure value:
  Displaying documents to read:
